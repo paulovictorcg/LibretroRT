@@ -4,7 +4,6 @@
 
 using namespace Platform;
 using namespace LibretroRT_Shared;
-using namespace Windows::Storage;
 
 namespace NestopiaRT
 {

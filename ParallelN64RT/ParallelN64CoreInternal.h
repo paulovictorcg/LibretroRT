@@ -1,18 +1,15 @@
 #pragma once
 
-#include "../LibretroRT_Tools/CoreBase.h"
+#include "CoreBase.h"
 
 using namespace Platform;
-using namespace LibretroRT_Tools;
-using namespace Windows::Storage;
+using namespace LibretroRT_Shared;
 
 namespace ParallelN64RT
 {
 	private ref class ParallelN64CoreInternal sealed : public CoreBase
 	{
 	protected private:
-		virtual void OverrideDefaultOptions(IMapView<String^, CoreOption^>^ options) override;
-
 		ParallelN64CoreInternal();
 
 	public:

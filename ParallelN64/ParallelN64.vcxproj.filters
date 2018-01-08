@@ -260,9 +260,7 @@
     <ClCompile Include="src\libretro-common\streams\file_stream.c" />
     <ClCompile Include="src\libretro-common\hash\rhash.c" />
     <ClCompile Include="src\libretro-common\lists\string_list.c" />
-    <ClCompile Include="src\libretro-common\file\retro_stat.c" />
     <ClCompile Include="src\libretro-common\string\stdstring.c" />
-    <ClCompile Include="src\libretro-common\file\file_path.c" />
     <ClCompile Include="src\libretro\libretro_crc.c" />
     <ClCompile Include="src\Graphics\RSP\gSP_funcs.cpp" />
     <ClCompile Include="src\Graphics\RSP\gSP_funcs_C.c" />
@@ -280,5 +278,10 @@
     <ClCompile Include="src\mupen64plus-video-angrylion\n64video_vi.c" />
     <ClCompile Include="src\mupen64plus-core\src\pifbootrom\pifbootrom.c" />
     <ClCompile Include="src\libretro-common\libco\libco.c" />
+    <ClCompile Include="src\libretro-common\vfs\vfs_implementation.c" />
+    <ClCompile Include="src\libretro-common\streams\file_stream_transforms.c" />
+    <ClCompile Include="src\libretro-common\compat\fopen_utf8.c" />
+    <ClCompile Include="src\libretro-common\encodings\encoding_utf.c" />
+    <ClCompile Include="src\libretro-common\file\file_path.c" />
   </ItemGroup>
 </Project>

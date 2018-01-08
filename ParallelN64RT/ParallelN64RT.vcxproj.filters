@@ -10,12 +10,9 @@
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="ParallelN64Core.cpp" />
     <ClCompile Include="ParallelN64CoreInternal.cpp" />
-    <ClCompile Include="..\LibretroRT_Tools\CoreBase.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h" />
     <ClInclude Include="ParallelN64Core.h" />
     <ClInclude Include="ParallelN64CoreInternal.h" />
-    <ClInclude Include="..\LibretroRT_Tools\CoreBase.h" />
   </ItemGroup>
 </Project>
